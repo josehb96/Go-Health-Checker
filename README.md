@@ -106,9 +106,9 @@ Defines the CLI application using the `urfave/cli` package. It handles command-l
 package main
 
 import (
-	"fmt"      // Package for formatted I/O operations
-	"log"      // Package for logging errors
-	"os"       // Package for interacting with the operating system
+	"fmt"
+	"log"
+	"os"
 
 	"github.com/urfave/cli/v2" // Package for creating command-line applications
 )
