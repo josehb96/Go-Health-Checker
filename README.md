@@ -10,6 +10,7 @@ Go Health Checker is a simple command-line tool built in Golang to check the hea
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Architecture](#architecture)
 - [Examples](#examples)
 - [Development](#development)
 
@@ -36,6 +37,11 @@ Go Health Checker is a simple command-line tool built in Golang to check the hea
    ```bash
    go build -o healthchecker main.go check.go
    ```
+
+## Architecture
+
+![main architecture]("images/mainArchitecture.png")
+![check architecture]("images/checkArchitecture.png")
 
 ## Usage
 
