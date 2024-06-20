@@ -10,7 +10,7 @@ func Check(destination, port string) string {
 
 	address := destination + ":" + port
 	timeout := time.Duration(5 * time.Second)
-	conn, err := net.DialTimeout("tcp", address, timeout)
+	conn, err := net.DialTimeout("tcp", address, timeout) // Establish a connection to the address and port specified above with a timeout of 5 seconds
 	var status string
 
 	if err != nil {
