@@ -1,7 +1,6 @@
 # Go Health Checker
 
 ![Go](https://img.shields.io/badge/Go-1.20-blue.svg)
-![License](https://img.shields.io/badge/License-MIT-yellow.svg)
 ![Build](https://img.shields.io/badge/Build-Passing-brightgreen.svg)
 
 Go Health Checker is a simple command-line tool built in Golang to check the health status of websites. Given a domain, it determines whether the website is live or down. 
@@ -13,7 +12,6 @@ Go Health Checker is a simple command-line tool built in Golang to check the hea
 - [Usage](#usage)
 - [Examples](#examples)
 - [Development](#development)
-- [License](#license)
 
 ## Features
 
@@ -108,9 +106,9 @@ Defines the CLI application using the `urfave/cli` package. It handles command-l
 package main
 
 import (
-	"fmt"      // Package for formatted I/O operations
-	"log"      // Package for logging errors
-	"os"       // Package for interacting with the operating system
+	"fmt"
+	"log"
+	"os"
 
 	"github.com/urfave/cli/v2" // Package for creating command-line applications
 )
@@ -184,11 +182,3 @@ func Check(domain, port string) string {
 ### Running Tests
 
 To test the application, you can manually run the built executable with various domains and ports to see if the outputs match your expectations.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-Feel free to modify the details such as the GitHub repository URL and additional features or examples as needed for your specific project.
