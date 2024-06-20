@@ -12,7 +12,6 @@ Go Health Checker is a simple command-line tool built in Golang to check the hea
 - [Usage](#usage)
 - [Examples](#examples)
 - [Development](#development)
-- [License](#license)
 
 ## Features
 
